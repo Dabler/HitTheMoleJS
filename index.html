@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title of the document</title>
+    <script src=game.js></script>
+</head>
+
+<body onload="game()">
+    <div id="countdown"></div>
+    <div id="score"></div>
+    <table>
+        <tr>
+            <th id="cell00" class="cell" onclick="whack(0,0);">1</th>
+            <th id="cell01" class="cell" onclick="whack(0,1);">2</th>
+            <th id="cell02" class="cell" onclick="whack(0,2);">3</th>
+        </tr>
+        <tr>
+            <th id="cell10" class="cell" onclick="whack(1,0);">4</th>
+            <th id="cell11" class="cell" onclick="whack(1,1);">5</th>
+            <th id="cell12" class="cell" onclick="whack(1,2);">6</th>
+        </tr>
+        <tr>
+            <th id="cell20" class="cell" onclick="whack(2,0);">7</th>
+            <th id="cell21" class="cell" onclick="whack(2,1);">8</th>
+            <th id="cell22" class="cell" onclick="whack(2,2);">9</th>
+        </tr>
+    </table>
+</body>
+
+</html>
